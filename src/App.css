@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+
+.task {
+  margin-top: 30px;
+  color: red;
+}
+
+.wrapper {
+  display: flex;
+  margin-top: 50px;
+}
+
+.form {
+  display: flex;
+  align-items: flex-end;
+}
+
+.label {
+  margin-right: 40px;
+}
+
+.text-input {
+  display: block;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.input {
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  outline: none;
+  border-radius: 15px;
+  font-size: 28px;
+  padding: 7px;
+  transition-duration: 500ms;
+}
+
+.input:hover {
+  border: 2px solid green;
+  transition-duration: 500ms;
+}
+
+.input:focus {
+  border: 2px solid rgb(218, 81, 188);
+  transition-duration: 500ms;
+}
+
+.button_save, .button_update, .button_clear {
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 24px;
+  border: 2px solid rgb(102, 102, 102);
+  border-radius: 15px;
+  background-color: #fff;
+  transition-duration: 500ms;
+}
+
+.button_save:hover, .button_update:hover {
+  background-color: rgb(64, 223, 130);
+  color: #fff;
+  transition-duration: 500ms;
+}
+
+.button_save:focus, .button_update:focus {
+  background-color: #e34761;
+  color: #fff;
+  transition-duration: 500ms;
+}
+
+.button_clear {
+  margin-left: 30px;
+}
+
+.button_clear:hover {
+  background-color: #e34761;
+  color: #fff;
+  transition-duration: 500ms;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+.item_name, .item_price {
+  display: block;
+  width: 300px;
+  text-align: center;
+}
+
+.button_edit {
+  margin-right: 20px;
+  width: 150px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 14px;
+  border: 2px solid rgb(102, 102, 102);
+  border-radius: 15px;
+  background-color: rgb(205, 207, 89);
+  transition-duration: 500ms;
+}
+
+.button_edit:hover {
+  background-color: rgb(207, 122, 52);
+  color: #fff;
+  transition-duration: 500ms;
+}
+
+.button_remove {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 14px;
+  border: 2px solid rgb(102, 102, 102);
+  border-radius: 15px;
+  background-color: #e68b9a;
+  color: #fff;
+  transition-duration: 500ms;
+}
+
+.button_remove:hover {
+  background-color: #e34761;
+}
